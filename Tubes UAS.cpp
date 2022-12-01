@@ -3,8 +3,21 @@
 
 int opsi, jumlahPemain = 0, modePermainan = 0;
 
+void tampilkanMenu();
+/* Prosedur untuk menampilkan tampilan menu utama ke layar
+I.S = layar belum menampilkan menu utama
+F.S = layar menampilkan menu utama dengan format :
+	Menu
+1. Mulai Permainan
+2. Lanjutkan Permainan
+3. Cara Bermain
+0. Keluar
+*/
+
 void inputOpsiMenu(int *inpt);
-/*Memasukan nilai untuk memilih menu*/
+/* Prosedur untuk menampilkan tampilan menu opsi jumlah pemain ke layar
+I.S = layar belum menampilkan tampilan menu opsi jumlah pemain
+F.S = layar menampilkan menu opsi jumlah pemaindengan format :
 
 int pilihOpsiJumlahPemain();
 
@@ -12,13 +25,34 @@ int pilihOpsiModePermainan();
 
 int pilihOpsiPanduanBermain();
 
-void tampilkanMenu();
-
 void tampilkanOpsiJumlahPemain();
+/* Prosedur untuk menampilkan tampilan menu opsi jumlah pemain ke layar
+I.S = layar belum menampilkan tampilan menu opsi jumlah pemain
+F.S = layar menampilkan menu opsi jumlah pemain dengan format :
+	Jumlah Pemain 
+1. 1 Pemain
+2. 2 Pemain
+0. Kembali
+*/
 
 void tampilkanOpsiModePermainan();
+/* Prosedur untuk menampilkan tampilan menu opsi mode permainan ke layar
+I.S = layar belum menampilkan tampilan menu opsi mode permainan ke layar
+F.S = layar menampilkan menu opsi mode permainan dengan format :
+	Mode Permainan
+1. 3x3
+2. 5x5
+3. 7x7
+0. Kembali
+*/
 
 void tampilkanOpsiPanduanBermain();
+/* Prosedur untuk menampilkan tampilan menu opsi panduan bermain ke layar
+I.S = layar belum menampilkan tampilan menu opsi panduan bermain ke layar
+F.S = layar menampilkan menu opsi panduan bermain dengan format :
+	Panduan Bermain
+...Penjelasan cara bermain...
+*/
 
 int main() {
 
